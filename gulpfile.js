@@ -1,7 +1,7 @@
 // Global Variables
 //Created with help of http://wecodetheweb.com/2015/08/27/automating-ftp-deployment-with-travis-ci-and-gulp/
 
-
+var gulp = require('gulp');
 var ftp = require('vinyl-ftp');
 var gutil = require('gulp-util');
 var minimist = require('minimist'); //Enables it to get the ftp username and password
