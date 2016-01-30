@@ -7,18 +7,6 @@ env:
   - secure: rSVEwXFEvvsUMx8F2fB6ESmgGbqrgKrgxDus2YrmbJU5zUELCyVem9EqApgrd/XcP+Ql+U42cZIuJzQEOdHMX3AWnRMKUql/L3ebSn9vGvJ5X5YWTtq+iVCQeqfvkufn/RCm8oTuCx7ESU8eXJ28Ke9Ek1m9GY8d9Q/Ef9zzadZz4SmGMdLTbLO/v8VQjNYU84MdLH2+Qc1EVgl9TiqclzA+WawLkFDh8WCQzRMmrr+7O9R57twxiXulRs8xs5+3QQ6uJ6WptwyAElxs4bYFUgKJjy3Rf8oWxbLCqg5NOVtOdVoBaIiXpaqE05LvAiKeG8r5UJhBO2bX6ffm80jFRcUnlZwYkRy3lyfNCQpAEdAIlUVzpjWUmlQPfoDNBlKL0/pB//h7n+YxZWxdyQcCzXI9OdISLuZlhmSwtAwHjw6VV4GPB2TISkmwAfaCfzcGc0GTC3tZNgI5G7snUPuxLGh/jgwpY3HHItfZHct+C91lq647duoYJ1sr6Tjwq45vZG+RpZpNc0H5dpnG+eVjhVAmWzPmyWEbv7J0+a4e0FBcSSdYsdDeEZAEaf9/KFIdH0AsiL+mSjzF7+iUVp1xopwywpt9Bn1mYnaxAV07GvQxtgAElnQBMDn2qhebJSh66Dz8GvjQWbHCYOqO6+0y1HEVG46JtqbgHPJVrSEBGdY=
 
 after_success:
-	"curl -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://catchtimeapp.com/public_html/farflights.com"
-
-
-
-
-
-
-
-
-
-
-
-
+ "curl -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://catchtimeapp.com/public_html/farflights.com"
 
 
