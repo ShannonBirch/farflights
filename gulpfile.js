@@ -3,7 +3,7 @@
 
 
 var ftp = require('vinyl-ftp');
-var gutil = require('gulp.util');
+var gutil = require('gulp-util');
 var minimist = require('minimist'); //Enables it to get the ftp username and password
 var args = minimist(process.argv.slice(2)); //Enables it to get the ftp username and password
 
