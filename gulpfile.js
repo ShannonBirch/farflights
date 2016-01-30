@@ -10,7 +10,7 @@ var args = minimist(process.argv.slice(2)); //Enables it to get the ftp username
 gulp.task('deploy', function(){
 	var remotePath = '/public_html/farflights.com/';
 	var conn = ftp.create({
-		host: 'ftp.catchtimeapp.com',
+		host: 'catchtimeapp.com',
 		user: args.user,
 		password: args.password,
 		log: gutil.log
