@@ -8,7 +8,7 @@ var minimist = require('minimist'); //Enables it to get the ftp username and pas
 var args = minimist(process.argv.slice(2)); //Enables it to get the ftp username and password
 
 gulp.task('deploy', function(){
-	var remotePath = '/public_html/farflights.com/';
+	var remotePath = '';
 	var conn = ftp.create({
 		host: 'catchtimeapp.com',
 		user: args.user,
