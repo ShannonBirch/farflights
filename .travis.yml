@@ -1,5 +1,6 @@
 language: php
 php:
+<<<<<<< HEAD
 - '5.4'
 env:
   global:
@@ -22,3 +23,6 @@ after_success:
 
 
 
+=======
+- '7.0'
+>>>>>>> 976f5324c4bdf0c220a6f6f0a7eb87633155ea17
