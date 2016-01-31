@@ -16,8 +16,8 @@ gulp.task('deploy', function(){
 		log: gutil.log
 	});
 	
-	return gulp.src('/**',
-			 { base: '.'})
+	return gulp.src('./**',
+			 { base: ''})
 		.pipe(conn.newer(remotePath))
 		.pipe(conn.dest(remotePath));	
 });
