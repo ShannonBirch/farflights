@@ -16,10 +16,7 @@ gulp.task('deploy', function(){
 		log: gutil.log
 	});
 	
-	return gulp.src(['./**/*.php', 
-			 './*.{css,png,ico,xml,php}',
-			 './lang/**',
-			 './dist/**'],
+	return gulp.src(output,
 			 { base: '.'})
 		.pipe(conn.newer(remotePath))
 		.pipe(conn.dest(remotePath));	
