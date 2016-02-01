@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+    <!-- Latest compiled and minified CSS -->
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+            $('#button').click(function(e) {
+                var inputDeparture = $("#departure").val();
+                var inputDestination = $("#destination").val();
+
+                window.location.replace(" https://www.aerlingus.com/html/flightSearchResult.html#/fareType=RETURN" +
+                        "&fareCategory=ECONOMY&numAdults=1&numChildren=0&numInfants=0&promoCode=&groupBooking=false" +
+                        "&sourceAirportCode_0="+inputDeparture+"&destinationAirportCode_0="+inputDestination+
+                        "&departureDate_0=2016-02-02&sourceAirportCode_1="+inputDestination+"&destinationAirportCode_1="+inputDeparture +
+                        "&departureDate_1=2016-02-04 ");
+
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="main">
+
+<input type="text" name="city" list="citynameFrom"id="departure">
+<datalist id="citynameFrom">
+    <option value="DUB">
+    <option value="LCY">
+</datalist>
+
+<input type="text" name="city" list="citynameTo"id="destination">
+<datalist id="citynameTo">
+    <option value="DUB">
+    <option value="LCY">
+</datalist>
+
+    <button type="button" id="button">Click Me!</button>
+
+</div>
+
+</body>
+</html>
