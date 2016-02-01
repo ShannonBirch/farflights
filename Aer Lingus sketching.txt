@@ -1,0 +1,118 @@
+
+
+Sample search url:
+
+https://www.aerlingus.com/html/flightSearchResult.html#/fareType=RETURN&fareCategory=ECONOMY&numAdults=1&numChildren=0&numInfants=0&promoCode=&groupBooking=false&sourceAirportCode_0=DUB&destinationAirportCode_0=SYD&departureDate_0=2016-02-05&sourceAirportCode_1=SYD&destinationAirportCode_1=DUB&departureDate_1=2016-02-07
+
+Flights from Dublin can go to{
+	Australia
+		- Melbourne 						: MEL
+		- Perth								: PER
+		- Sydney							: SYD
+		
+	Austria
+		- Vienna							: VIE
+		
+	Bahrain
+		- Bahrain							: BAH
+		
+	Belgium
+		- Brussels							: BRU
+		
+	Bulgaria
+		- Bourgas/Bulgaria					: BOJ
+		
+	Canada
+		- Calgary							: YYC
+		- Dedmonton							: YEG
+		- Halifax							: YHZ
+		- Montreal, P.E Trudeau Intl, QU	: YUL
+		- Ottawa, ON						: YOW
+		- Quebec City						: YQB
+		- Regina							: YQR
+		- Saskatoon							: YXE
+		- St. Johns NL						: YYT
+		- Toronto							: YYZ
+		- Vancouver							: YVR
+		- Victortia							: YYJ
+		- Winnipeg							: YWG
+		
+	Croatia
+		- Dubrovnik							: DBV
+		- Pula								: PUY
+		
+	Czech Republic
+		- Prague							: PRG
+	
+	Denmark
+		- Copenhagen						: CPH
+		
+	France
+		- Bordeaux							: BOD
+		- Lyon								: LYS
+		- Marseille							: MRS
+		- Montpellier						: MPL
+		- Nantes							: NTE
+		- Nice								: NCE
+		- Paris								: CDG
+		- Perpignan							: PGF
+		- Rennes							: RNS
+		- Toulouse							: TLS
+		
+	Germany
+		- Berlin							: TLX
+		- Dusseldorf						: DUS
+		- Frankfurt							: FRA
+		- Hamburg							: HAM
+		- Munich							: MUC
+		- Stuttgart							: STR
+		
+	Greece
+		- Athens							: ATH
+		- Corfu								: CFU
+		
+	Hungary
+		- Budapest							: BUD
+		
+	Ireland
+		- Donegal							: CFN
+		- Kerry								: KIR
+		
+	Italy
+		- Bologna							: BLQ
+		- Catania/Sicily					: CTA
+		- Milan Italy Area					: MIL
+		- Milan/Linate						: LIN
+		- Milan/Malpensa					: MXP
+		- Naples							: NAP
+		- Pisa								: PSA
+		- Rome/DaVinci						: FCO
+		- Venice							: VCE
+		- Verona							: VRN
+		
+	Morocco
+		- Agadir/Morocco					: AGA
+	
+	Netherlands
+		- Amsterdam							: AMS
+		
+	Oman
+		- Muscat							: MCT
+		
+	Poland
+		- Warsaw							: WAW
+		
+	Portugal
+	
+	
+
+
+
+
+
+
+
+
+
+
+}
