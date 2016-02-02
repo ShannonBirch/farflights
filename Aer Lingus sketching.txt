@@ -179,106 +179,127 @@ Flights from Dublin can go to{
 		Albany (ALB), New York, USA
 		Atlanta (ATL), Georgia, USA
 		Austin (AUS), Texas, USA
+		
 		Boise (BOI), Idaho, USA
 		Boston (BOS), Massachusetts, USA
 		Buffalo (BUF), New York, USA
 		Burlington (BTV), Vermont, USA
 		Cedar Rapids (CID), Iowa, USA
+		
 		Charleston (CHS), South Carolina, USA
 		Charlotte (CLT), North Carolina, USA
 		Chicago/OHare (ORD), Illinois, USA
 		Cincinnati (CVG), Ohio, USA
 		Cleveland (CLE), Ohio, USA
+		
 		Columbia (CAE), South Carolina, USA
 		Columbus (CMH), Ohio, USA
 		Dallas (DFW), Texas, USA
 		Dayton (DAY), Ohio, USA
 		Denver (DEN), Colorado, USA
+		
 		Des Moines (DSM), Iowa, USA
 		Detroit (DTW), Michigan, USA
 		Duluth (DLH), Minnesota, USA
 		Eugene, Oregon (EUG), Oregon, USA
 		Fargo (FAR), North Dakota, USA
+		
 		Fort Lauderdale (FLL), Florida, USA
 		Fort Myers (RSW), Florida, USA
 		Fort Wayne (FWA), Indiana, USA
 		Fresno, CA (FAT), California, USA
 		Grand Rapids (GRR), Michigan, USA
+		
 		Greensboro (GSO), North Carolina, USA
 		Greenville (GSP), South Carolina, USA
 		Harrisburg, PA (MDT), Pennsylvania, USA
 		Hartford (BDL), Connecticut, USA
 		Honolulu, HI (HNL), Hawaii, USA
+		
 		Houston/George Bush (IAH), Texas, USA
 		Houston/Hobby (HOU), Texas, USA
 		Hyannis, MA (HYA), Massachusetts, USA
 		Indianapolis (IND), Indiana, USA
 		Jacksonville (JAX), Florida, USA
+		
 		Kansas City (MCI), Missouri, USA
 		Knoxville (TYS), Tennessee, USA
 		L.A. Burbank (BUR), California, USA
 		L.A. Long Beach (LGB), California, USA
 		L.A. Los Angeles (LAX), California, USA
+		
 		Las Vegas (LAS), Nevada, USA
 		Lexington, Kentucky (LEX), Kentucky, USA
 		Little Rock (LIT), Arkansas, USA
 		Louisville, Kentucky (SDF), Kentucky, USA
 		Madison (MSN), Wisconsin, USA
+		
 		Marthas Vineyard, MA (MVY), Massachusetts, USA
 		Maui, HI (OGG), Hawaii, USA
 		Medford, OR (MFR), Oregon, USA
 		Memphis (MEM), Tennessee, USA
 		Miami (MIA), Florida, USA
+		
 		Milwaukee (MKE), Wisconsin, USA
 		Minneapolis (MSP), Minnesota, USA
 		Monterey, CA (MRY), California, USA
 		Nantucket (ACK), Massachusetts, USA
 		Nashville (BNA), Tennessee, USA
+		
 		New Orleans (MSY), Louisiana, USA
 		New York (JFK), New York, USA
 		Newark NJ (EWR), New Jersey, USA
 		Norfolk (ORF), Virginia, USA
 		Oakland (OAK), California, USA
+		
 		Oklahoma City (OKC), Oklahoma, USA
 		Omaha, Nebraska (OMA), Nebraska, USA
 		Orange County (SNA), California, USA
 		Orlando (MCO), Florida, USA
 		Palm Springs, CA (PSP), California, USA
+		
 		Philadelphia (PHL), Pennsylvania, USA
 		Phoenix (PHX), Arizona, USA
 		Pittsburgh (PIT), Pennsylvania, USA
 		Ponce (PSE), Puerto Rico, USA
 		Portland, Maine (PWM), Maine, USA
+		
 		Portland, Oregon (PDX), Oregon, USA
 		Providence (PVD), Rhode Island, USA
 		Raleigh-Durham (RDU), North Carolina, USA
 		Reno, NV (RNO), Nevada, USA
 		Richmond (RIC), Virginia, USA
+		
 		Rochester (ROC), New York, USA
 		Sacramento (SMF), California, USA
 		Salt Lake City (SLC), Utah, USA
 		San Antonio (SAT), Texas, USA
 		San Diego (SAN), California, USA
+		
 		San Francisco (SFO), California, USA
 		San Jose (SJC), California, USA
 		San Juan (SJU), Puerto Rico, USA
 		San Luis Obispo (SBP), California, USA
 		Santa Barbara (SBA), California, USA
+		
 		Savannah (SAV), Georgia, USA
 		Seattle (SEA), Washington, USA
 		Sioux Falls (FSD), South Dakota, USA
 		Springfield (SGF), Missouri, USA
 		St Louis (STL), Missouri, USA
+		
 		Syracuse (SYR), New York, USA
 		Tampa (TPA), Florida, USA
 		Traverse City (TVC), Michigan, USA
 		Tucson, AZ (TUS), Arizona, USA
 		Tulsa (TUL), Oklahoma, USA
+		
 		Washington Baltimore (BWI), Maryland, USA
 		Washington Dulles (IAD), District of Columbia, USA
 		Washington Reagan (DCA), District of Columbia, USA
 		West Palm Beach (PBI), Florida, USA
 		Wichita (ICT), Kansas, USA
+		
 		 Return Trip
 		 One Way
 		 Multi-City
