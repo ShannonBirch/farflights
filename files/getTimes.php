@@ -1,6 +1,6 @@
 <?
 
-$doc = new DomDocument
+$doc = new DomDocument;
 
 
 $doc->validateOnParse = true;
