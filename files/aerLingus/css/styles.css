@@ -1,0 +1,6 @@
+.bgimage{
+	background-image: url(../zohan.jpg);
+	background-position:  center;
+	background-size: cover;
+	height: 400px;
+}

@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+
+<div class="main">
+<div class="container">
+
+<!--Start of datalists -->
+<input type="text" name="city" list="citynameFrom"id="departure">
+<datalist id="citynameFrom">
+
+    <!--IRELAND-->
+    <option id="DUB "value="Dublin, Ireland"></option>
+    <option id="KIR" value = "Kerry, Ireland"></option>
+    <option id="CFG" value = "Donegal, Ireland"></option>
+
+    <!--UK-->
+    <option id="LCY" value = "London City Airport, United Kingdom"></option>
+    <option id="LON" value = "London England Area, United Kingdom"></option>
+    <option id="ABZ" value = "Aberdeen, United Kingdom"></option>
+    <option id="BHX" value = "Birmingham, United Kingdom"></option>
+    <option id="BRS" value = "Bristol, United Kingdom"></option>
+    <option id="CWL" value = "Cardif, United Kingdom"></option>
+    <option id="DSA" value = "Doncaster, Sheffield, United Kingdom"></option>
+    <option id="EMA" value = "East Midlands, United Kingdom"></option>
+    <option id="EDI" value = "Edinburgh, United Kingdom"></option>
+    <option id="GLA" value = "Glasgow, United Kingdom"></option>
+    <option id="IOM" value = "Isle of Man, United Kingdom"></option>
+    <option id="JER" value = "Jersey, United Kingdom"></option>
+    <option id="LBA" value = "Leeds Brandfor, United Kingdom"></option>
+    <option id="LPL" value = "Liverpool, United Kingdom"></option>
+    <option id="LGW" value = "London Gatwick, United Kingdom"></option>
+    <option id="LHR" value = "London Heathrow, United Kingdom"></option>
+    <option id="MAN" value = "Mancherster, United Kingdom"></option>
+    <option id="NCL" value = "Newcastle, United Kingdom"></option>
+    <option id="NQY" value = "Nequay, United Kingdom"></option>
+
+    <!--AUSTRALIA-->
+    <option id="MEL" value = "Melbourne, Australia"></option>
+    <option id="PER" value = "Perth, Australia"></option>
+    <option id="SYD" value = "Sydney, Australia"></option>
+
+    <!--AUSTRIA-->
+    <option id="VIE" value = "Vienna, Austria"></option>
+
+    <!--BAHRAIN-->
+    <option id="BAH" value = "Bahrain, Bahrain"></option>
+
+    <!--BELGIUM-->
+    <option id="BRU" value = "Brussels, Belgium"></option>
+
+    <!--BULGARIA-->
+    <option id="BOJ" value = "Bourgas/Bulgaria Bulgaria"></option>
+
+    <!--CANADA-->
+    <option id="YYC" value = "Calgary, Canada"></option>
+    <option id="YEG" value = "Edmonton, Canada"></option>
+    <option id="YHZ" value = "Halifax, Canada"></option>
+    <option id="YUL" value = "Montreal, P.E Trudeau INTL, QU, Canada"></option>
+    <option id="YOW" value = "Ottawa, ON"></option>
+    <option id="YQB" value = "Quebec City"></option>
+    <option id="YQR" value = "Regina"></option>
+    <option id="YXE" value = "Saskatoon"></option>
+    <option id="YYT" value = "St. Johns NL"></option>
+    <option id="YYZ" value = "Toronto"></option>
+    <option id="YVR" value = "Vancouver"></option>
+    <option id="YYJ" value = "Victortia"></option>
+    <option id="YWG" value = "Winnipeg"></option>
+
+    <!--CROATIA-->
+    <option id="DBV" value = "Dubrovnik"></option>
+    <option id="PUY" value = "Pula"></option>
+
+    <!--CZECH REPUBLIC-->
+    <option id="PRG" value = "Prague"></option>
+
+    <!--DENMARK-->
+    <option id="CPH" value = "Copenhagen"></option>
+
+    <!--FRANCE-->
+    <option id="BOD" value = "Bordeaux"></option>
+    <option id="LYS" value = "Lyon"></option>
+    <option id="MRS" value = "Marseille"></option>
+    <option id="MPL" value = "Montpellier"></option>
+    <option id="NTE" value = "Nantes"></option>
+    <option id="NCE" value = "Nice"></option>
+    <option id="CDG" value = "Paris"></option>
+    <option id="PGF" value = "Perpignan"></option>
+    <option id="RNS" value = "Rennes"></option>
+    <option id="TLS" value = "Toulouse"></option>
+
+    <!--GERMANY-->
+    <option id="TXL" value = "Berlin"></option>
+    <option id="DUS" value = "Dusseldorf"></option>
+    <option id="FRA" value = "Frankfurt"></option>
+    <option id="HAM" value = "Hamburg"></option>
+    <option id="MUC" value = "Munich"></option>
+    <option id="STR" value = "Stuttgart"></option>
+
+    <!--GREECE-->
+    <option id="ATH" value = "Athens"></option>
+    <option id="CFU" value = "Corfu"></option>
+
+    <!--HUNGARY-->
+    <option id="BUD" value = "Budapest"></option>
+
+    <!--ITALY-->
+    <option id="BLQ" value = "Donegal"></option>
+    <option id="CTA" value = "Kerry"></option>
+    <option id="MIL" value = "Bologna"></option>
+    <option id="LIN" value = "Milan/Linate"></option>
+    <option id="MXP" value = "Milan/Malpensa"></option>
+    <option id="NAP" value = "Naples"></option>
+    <option id="PSA" value = "Pisa"></option>
+    <option id="FCO" value = "Rome/DaVinci"></option>
+    <option id="VCE" value = "Venice"></option>
+    <option id="VRN" value = "Verona"></option>
+
+    <!--MOROCCO-->
+    <option id="AGA" value = "Agadir/Morocco"></option>
+
+    <!--NEHTERLANDS-->
+    <option id="AMS" value = "Amsterdam"></option>
+
+    <!--OMAN-->
+    <option id="MCT" value = "Muscat"></option>
+
+    <!--POLAND-->
+    <option id="WAW" value = "Warsaw"></option>
+
+    <!--PORTUGAL-->
+    <option id="FAO" value = "Faro Algarve"></option>
+    <option id="LIS" value = "Lisbon"></option>
+
+    <!--SPAIN-->
+    <option id="ALC" value = "Alicante"></option>
+    <option id="BCN" value = "Barcelona"></option>
+    <option id="BIO" value = "Bilbao"></option>
+    <option id="FUE" value = "Fuerteventura"></option>
+    <option id="LPA" value = "Gran Canaria"></option>
+    <option id="ACE" value = "Lanzarote"></option>
+    <option id="MAD" value = "Madrid"></option>
+    <option id="AGP" value = "Malaga"></option>
+    <option id="MJV" value = "Murcia (San Javier)"></option>
+    <option id="PMI" value = "Palma Majorca"></option>
+    <option id="SCQ" value = "Santiago de Compostela"></option>
+    <option id="TFS" value = "Tenerife"></option>
+
+    <!--SWITZERLAND-->
+    <option id="GVA" value = "Geneva"></option>
+    <option id="ZRH" value = "Zurich"></option>
+
+    <!--TURKEY-->
+    <option id="ADB" value = "Izmir"></option>
+
+    <!--USA-->
+    <option id="BOS" value = "Boston"></option>
+    <option id="ORD" value = "Chicago/OHare"></option>
+    <option id="BDL" value = "Hartford"></option>
+    <option id="LAX" value = "L.A. Los Angeles"></option>
+    <option id="JFK" value = "New York"></option>
+    <option id="EWR" value = "Newark NJ"></option>
+    <option id="MCO" value = "Orlando"></option>
+    <option id="SFO" value = "San Francisco"></option>
+    <option id="IAD" value = "Washington Dulles"></option>
+
+
+    <option id="BQN" value = "Aguadilla"></option>
+    <option id="CAK" value = "Akron-Canton"></option>
+    <option id="ALB" value = "Albany"></option>
+    <option id="ATL" value = "Atlanta"></option>
+    <option id="AUS" value = "Austin"></option>
+
+    <option id="BOI" value = "Boise"></option>
+    <option id="BUF" value = "Buffalo"></option>
+    <option id="BTV" value = "Burlington"></option>
+    <option id="CID" value = "Cedar Rapids"></option>
+
+    <option id="CHS" value = "Charleston "></option>
+    <option id="CLT" value = "Charlotte"></option>
+    <option id="ORD" value = "Chicago/OHare"></option>
+    <option id="CVG" value = "Cincinnati"></option>
+    <option id="CLE" value = "Cleveland"></option>
+
+    <option id="CAE" value = "Columbia"></option>
+    <option id="CMH" value = "Columbus"></option>
+    <option id="DFW" value = "Dallas"></option>
+    <option id="DAY" value = "Dayton"></option>
+    <option id="DEN" value = "Denver"></option>
+
+    <option id="DSM" value = "Des Moines"></option>
+    <option id="DTW" value = "Detroit"></option>
+    <option id="DLH" value = "Duluth"></option>
+    <option id="EUG" value = "Eugene, Oregon"></option>
+    <option id="FAR" value = "Fargo"></option>
+
+    <option id="FLL" value = "Fort Lauderdale"></option>
+    <option id="RSW" value = "Fort Myers"></option>
+    <option id="FWA" value = "Fort Wayne"></option>
+    <option id="FAT" value = "Fresno, CA"></option>
+    <option id="GRR" value = "Grand Rapids"></option>
+
+    <option id="GSO" value = "Greensboro"></option>
+    <option id="GSP" value = "Greenville"></option>
+    <option id="MDT" value = "Harrisburg, PA"></option>
+    <option id="BDL" value = "Hartford"></option>
+    <option id="HNL" value = "Honolulu, HI"></option>
+
+    <option id="IAH" value = "Houston/George Bush"></option>
+    <option id="HOU" value = "Houston/Hobby"></option>
+    <option id="HYA" value = "Hyannis, MA"></option>
+    <option id="IND" value = "Indianapolis"></option>
+    <option id="JAX" value = "Jacksonville"></option>
+
+    <option id="MCI" value = "Kansas City"></option>
+    <option id="TYS" value = "Knoxville"></option>
+    <option id="BUR" value = "Burbank"></option>
+    <option id="LGB" value = "Long Beach"></option>
+    <option id="LAX" value = "Los Angeles"></option>
+
+    <option id="LAS" value = "Las Vegas"></option>
+    <option id="LEX" value = "Lexington"></option>
+    <option id="LIT" value = "Little Rock"></option>
+    <option id="SDF" value = "Louisville, Kentucky"></option>
+    <option id="MSN" value = "Madison"></option>
+
+    <option id="MVY" value = "Marthas Vineyard, MA"></option>
+    <option id="OGG" value = "Maui, HI"></option>
+    <option id="MFR" value = "Medford, OR"></option>
+    <option id="MEM" value = "Memphis"></option>
+    <option id="MIA" value = "Miami"></option>
+
+    <option id="MKE" value = "Milwaukee"></option>
+    <option id="MSP" value = "Minneapolis"></option>
+    <option id="MRY" value = "Monterey, CA"></option>
+    <option id="ACK" value = "Nantucket"></option>
+    <option id="BNA" value = "Nashville"></option>
+
+    <option id="MSY" value = "New Orleans"></option>
+    <option id="MSY" value = "New York"></option>
+    <option id="EWR" value = "Newark NJ"></option>
+    <option id="ORF" value = "Norfolk"></option>
+    <option id="OAK" value = "Oakland"></option>
+
+    <option id="OKC" value = "Oklahoma City"></option>
+    <option id="OMA" value = "Omaha, Nebraska"></option>
+    <option id="SNA" value = "Orange County"></option>
+    <option id="MCO" value = "Orlando"></option>
+    <option id="PSP" value = "Palm Springs, CA"></option>
+
+    <option id="PHL" value = "Philadelphia"></option>
+    <option id="PHX" value = "Phoenix"></option>
+    <option id="PIT" value = "Pittsburgh"></option>
+    <option id="PSE" value = "Ponce"></option>
+    <option id="PWM" value = "Portland, Maine"></option>
+
+    <option id="PDX" value = "Portland, Oregon"></option>
+    <option id="PVD" value = "Providence"></option>
+    <option id="RDU" value = "Raleigh-Durham"></option>
+    <option id="RNO" value = "Reno, NV"></option>
+    <option id="RIC" value = "Richmond"></option>
+
+    <option id="ROC" value = "Rochester"></option>
+    <option id="SMF" value = "Sacramento"></option>
+    <option id="SLC" value = "Salt Lake City"></option>
+    <option id="SAT" value = "San Antonio"></option>
+    <option id="SAN" value = "San Diego"></option>
+
+    <option id="SFO" value = "San Francisco"></option>
+    <option id="SJC" value = "San Jose"></option>
+    <option id="SJU" value = "San Juan"></option>
+    <option id="SBP" value = "San Luis Obispo"></option>
+    <option id="SBA" value = "Santa Barbara"></option>
+
+    <option id="SAV" value = "Savannah"></option>
+    <option id="SEA" value = "Seattle"></option>
+    <option id="FSD" value = "Sioux Falls"></option>
+    <option id="SGF" value = "Springfield"></option>
+    <option id="STL" value = "St Louis"></option>
+
+    <option id="SYR" value = "Syracuse"></option>
+    <option id="TPA" value = "Tampa"></option>
+    <option id="TVC" value = "Traverse City"></option>
+    <option id="TUS" value = "Tucson, AZ"></option>
+    <option id="TUL" value = "Tulsa"></option>
+
+    <option id="Washington Baltimore" value = "BWI"></option>
+    <option id="Washington Dulles" value = "IAD"></option>
+    <option id="Washington Reagan" value = "DCA"></option>
+    <option id="West Palm Beach" value = "PBI"></option>
+    <option id="Wichita" value = "ICT"></option>
+
+</datalist>
+
+
+
+
+
+<input type="text" name="city" list="citynameTo"id="destination">
+<datalist id="citynameTo">
+        <!--IRELAND-->
+    <option id="DUB "value="Dublin, Ireland"></option>
+    <option id="KIR" value = "Kerry, Ireland"></option>
+    <option id="CFG" value = "Donegal, Ireland"></option>
+
+    <!--UK-->
+    <option id="LCY" value = "London City Airport, United Kingdom"></option>
+    <option id="LON" value = "London England Area, United Kingdom"></option>
+    <option id="ABZ" value = "Aberdeen, United Kingdom"></option>
+    <option id="BHX" value = "Birmingham, United Kingdom"></option>
+    <option id="BRS" value = "Bristol, United Kingdom"></option>
+    <option id="CWL" value = "Cardif, United Kingdom"></option>
+    <option id="DSA" value = "Doncaster, Sheffield, United Kingdom"></option>
+    <option id="EMA" value = "East Midlands, United Kingdom"></option>
+    <option id="EDI" value = "Edinburgh, United Kingdom"></option>
+    <option id="GLA" value = "Glasgow, United Kingdom"></option>
+    <option id="IOM" value = "Isle of Man, United Kingdom"></option>
+    <option id="JER" value = "Jersey, United Kingdom"></option>
+    <option id="LBA" value = "Leeds Brandfor, United Kingdom"></option>
+    <option id="LPL" value = "Liverpool, United Kingdom"></option>
+    <option id="LGW" value = "London Gatwick, United Kingdom"></option>
+    <option id="LHR" value = "London Heathrow, United Kingdom"></option>
+    <option id="MAN" value = "Mancherster, United Kingdom"></option>
+    <option id="NCL" value = "Newcastle, United Kingdom"></option>
+    <option id="NQY" value = "Nequay, United Kingdom"></option>
+
+    <!--AUSTRALIA-->
+    <option id="MEL" value = "Melbourne, Australia"></option>
+    <option id="PER" value = "Perth, Australia"></option>
+    <option id="SYD" value = "Sydney, Australia"></option>
+
+    <!--AUSTRIA-->
+    <option id="VIE" value = "Vienna, Austria"></option>
+
+    <!--BAHRAIN-->
+    <option id="BAH" value = "Bahrain, Bahrain"></option>
+
+    <!--BELGIUM-->
+    <option id="BRU" value = "Brussels, Belgium"></option>
+
+    <!--BULGARIA-->
+    <option id="BOJ" value = "Bourgas/Bulgaria Bulgaria"></option>
+
+    <!--CANADA-->
+    <option id="YYC" value = "Calgary, Canada"></option>
+    <option id="YEG" value = "Edmonton, Canada"></option>
+    <option id="YHZ" value = "Halifax, Canada"></option>
+    <option id="YUL" value = "Montreal, P.E Trudeau INTL, QU, Canada"></option>
+    <option id="YOW" value = "Ottawa, ON"></option>
+    <option id="YQB" value = "Quebec City"></option>
+    <option id="YQR" value = "Regina"></option>
+    <option id="YXE" value = "Saskatoon"></option>
+    <option id="YYT" value = "St. Johns NL"></option>
+    <option id="YYZ" value = "Toronto"></option>
+    <option id="YVR" value = "Vancouver"></option>
+    <option id="YYJ" value = "Victortia"></option>
+    <option id="YWG" value = "Winnipeg"></option>
+
+    <!--CROATIA-->
+    <option id="DBV" value = "Dubrovnik"></option>
+    <option id="PUY" value = "Pula"></option>
+
+    <!--CZECH REPUBLIC-->
+    <option id="PRG" value = "Prague"></option>
+
+    <!--DENMARK-->
+    <option id="CPH" value = "Copenhagen"></option>
+
+    <!--FRANCE-->
+    <option id="BOD" value = "Bordeaux"></option>
+    <option id="LYS" value = "Lyon"></option>
+    <option id="MRS" value = "Marseille"></option>
+    <option id="MPL" value = "Montpellier"></option>
+    <option id="NTE" value = "Nantes"></option>
+    <option id="NCE" value = "Nice"></option>
+    <option id="CDG" value = "Paris"></option>
+    <option id="PGF" value = "Perpignan"></option>
+    <option id="RNS" value = "Rennes"></option>
+    <option id="TLS" value = "Toulouse"></option>
+
+    <!--GERMANY-->
+    <option id="TXL" value = "Berlin"></option>
+    <option id="DUS" value = "Dusseldorf"></option>
+    <option id="FRA" value = "Frankfurt"></option>
+    <option id="HAM" value = "Hamburg"></option>
+    <option id="MUC" value = "Munich"></option>
+    <option id="STR" value = "Stuttgart"></option>
+
+    <!--GREECE-->
+    <option id="ATH" value = "Athens"></option>
+    <option id="CFU" value = "Corfu"></option>
+
+    <!--HUNGARY-->
+    <option id="BUD" value = "Budapest"></option>
+
+    <!--ITALY-->
+    <option id="BLQ" value = "Donegal"></option>
+    <option id="CTA" value = "Kerry"></option>
+    <option id="MIL" value = "Bologna"></option>
+    <option id="LIN" value = "Milan/Linate"></option>
+    <option id="MXP" value = "Milan/Malpensa"></option>
+    <option id="NAP" value = "Naples"></option>
+    <option id="PSA" value = "Pisa"></option>
+    <option id="FCO" value = "Rome/DaVinci"></option>
+    <option id="VCE" value = "Venice"></option>
+    <option id="VRN" value = "Verona"></option>
+
+    <!--MOROCCO-->
+    <option id="AGA" value = "Agadir/Morocco"></option>
+
+    <!--NEHTERLANDS-->
+    <option id="AMS" value = "Amsterdam"></option>
+
+    <!--OMAN-->
+    <option id="MCT" value = "Muscat"></option>
+
+    <!--POLAND-->
+    <option id="WAW" value = "Warsaw"></option>
+
+    <!--PORTUGAL-->
+    <option id="FAO" value = "Faro Algarve"></option>
+    <option id="LIS" value = "Lisbon"></option>
+
+    <!--SPAIN-->
+    <option id="ALC" value = "Alicante"></option>
+    <option id="BCN" value = "Barcelona"></option>
+    <option id="BIO" value = "Bilbao"></option>
+    <option id="FUE" value = "Fuerteventura"></option>
+    <option id="LPA" value = "Gran Canaria"></option>
+    <option id="ACE" value = "Lanzarote"></option>
+    <option id="MAD" value = "Madrid"></option>
+    <option id="AGP" value = "Malaga"></option>
+    <option id="MJV" value = "Murcia (San Javier)"></option>
+    <option id="PMI" value = "Palma Majorca"></option>
+    <option id="SCQ" value = "Santiago de Compostela"></option>
+    <option id="TFS" value = "Tenerife"></option>
+
+    <!--SWITZERLAND-->
+    <option id="GVA" value = "Geneva"></option>
+    <option id="ZRH" value = "Zurich"></option>
+
+    <!--TURKEY-->
+    <option id="ADB" value = "Izmir"></option>
+
+    <!--USA-->
+    <option id="BOS" value = "Boston"></option>
+    <option id="ORD" value = "Chicago/OHare"></option>
+    <option id="BDL" value = "Hartford"></option>
+    <option id="LAX" value = "L.A. Los Angeles"></option>
+    <option id="JFK" value = "New York"></option>
+    <option id="EWR" value = "Newark NJ"></option>
+    <option id="MCO" value = "Orlando"></option>
+    <option id="SFO" value = "San Francisco"></option>
+    <option id="IAD" value = "Washington Dulles"></option>
+
+
+    <option id="BQN" value = "Aguadilla"></option>
+    <option id="CAK" value = "Akron-Canton"></option>
+    <option id="ALB" value = "Albany"></option>
+    <option id="ATL" value = "Atlanta"></option>
+    <option id="AUS" value = "Austin"></option>
+
+    <option id="BOI" value = "Boise"></option>
+    <option id="BUF" value = "Buffalo"></option>
+    <option id="BTV" value = "Burlington"></option>
+    <option id="CID" value = "Cedar Rapids"></option>
+
+    <option id="CHS" value = "Charleston "></option>
+    <option id="CLT" value = "Charlotte"></option>
+    <option id="ORD" value = "Chicago/OHare"></option>
+    <option id="CVG" value = "Cincinnati"></option>
+    <option id="CLE" value = "Cleveland"></option>
+
+    <option id="CAE" value = "Columbia"></option>
+    <option id="CMH" value = "Columbus"></option>
+    <option id="DFW" value = "Dallas"></option>
+    <option id="DAY" value = "Dayton"></option>
+    <option id="DEN" value = "Denver"></option>
+
+    <option id="DSM" value = "Des Moines"></option>
+    <option id="DTW" value = "Detroit"></option>
+    <option id="DLH" value = "Duluth"></option>
+    <option id="EUG" value = "Eugene, Oregon"></option>
+    <option id="FAR" value = "Fargo"></option>
+
+    <option id="FLL" value = "Fort Lauderdale"></option>
+    <option id="RSW" value = "Fort Myers"></option>
+    <option id="FWA" value = "Fort Wayne"></option>
+    <option id="FAT" value = "Fresno, CA"></option>
+    <option id="GRR" value = "Grand Rapids"></option>
+
+    <option id="GSO" value = "Greensboro"></option>
+    <option id="GSP" value = "Greenville"></option>
+    <option id="MDT" value = "Harrisburg, PA"></option>
+    <option id="BDL" value = "Hartford"></option>
+    <option id="HNL" value = "Honolulu, HI"></option>
+
+    <option id="IAH" value = "Houston/George Bush"></option>
+    <option id="HOU" value = "Houston/Hobby"></option>
+    <option id="HYA" value = "Hyannis, MA"></option>
+    <option id="IND" value = "Indianapolis"></option>
+    <option id="JAX" value = "Jacksonville"></option>
+
+    <option id="MCI" value = "Kansas City"></option>
+    <option id="TYS" value = "Knoxville"></option>
+    <option id="BUR" value = "Burbank"></option>
+    <option id="LGB" value = "Long Beach"></option>
+    <option id="LAX" value = "Los Angeles"></option>
+
+    <option id="LAS" value = "Las Vegas"></option>
+    <option id="LEX" value = "Lexington"></option>
+    <option id="LIT" value = "Little Rock"></option>
+    <option id="SDF" value = "Louisville, Kentucky"></option>
+    <option id="MSN" value = "Madison"></option>
+
+    <option id="MVY" value = "Marthas Vineyard, MA"></option>
+    <option id="OGG" value = "Maui, HI"></option>
+    <option id="MFR" value = "Medford, OR"></option>
+    <option id="MEM" value = "Memphis"></option>
+    <option id="MIA" value = "Miami"></option>
+
+    <option id="MKE" value = "Milwaukee"></option>
+    <option id="MSP" value = "Minneapolis"></option>
+    <option id="MRY" value = "Monterey, CA"></option>
+    <option id="ACK" value = "Nantucket"></option>
+    <option id="BNA" value = "Nashville"></option>
+
+    <option id="MSY" value = "New Orleans"></option>
+    <option id="MSY" value = "New York"></option>
+    <option id="EWR" value = "Newark NJ"></option>
+    <option id="ORF" value = "Norfolk"></option>
+    <option id="OAK" value = "Oakland"></option>
+
+    <option id="OKC" value = "Oklahoma City"></option>
+    <option id="OMA" value = "Omaha, Nebraska"></option>
+    <option id="SNA" value = "Orange County"></option>
+    <option id="MCO" value = "Orlando"></option>
+    <option id="PSP" value = "Palm Springs, CA"></option>
+
+    <option id="PHL" value = "Philadelphia"></option>
+    <option id="PHX" value = "Phoenix"></option>
+    <option id="PIT" value = "Pittsburgh"></option>
+    <option id="PSE" value = "Ponce"></option>
+    <option id="PWM" value = "Portland, Maine"></option>
+
+    <option id="PDX" value = "Portland, Oregon"></option>
+    <option id="PVD" value = "Providence"></option>
+    <option id="RDU" value = "Raleigh-Durham"></option>
+    <option id="RNO" value = "Reno, NV"></option>
+    <option id="RIC" value = "Richmond"></option>
+
+    <option id="ROC" value = "Rochester"></option>
+    <option id="SMF" value = "Sacramento"></option>
+    <option id="SLC" value = "Salt Lake City"></option>
+    <option id="SAT" value = "San Antonio"></option>
+    <option id="SAN" value = "San Diego"></option>
+
+    <option id="SFO" value = "San Francisco"></option>
+    <option id="SJC" value = "San Jose"></option>
+    <option id="SJU" value = "San Juan"></option>
+    <option id="SBP" value = "San Luis Obispo"></option>
+    <option id="SBA" value = "Santa Barbara"></option>
+
+    <option id="SAV" value = "Savannah"></option>
+    <option id="SEA" value = "Seattle"></option>
+    <option id="FSD" value = "Sioux Falls"></option>
+    <option id="SGF" value = "Springfield"></option>
+    <option id="STL" value = "St Louis"></option>
+
+    <option id="SYR" value = "Syracuse"></option>
+    <option id="TPA" value = "Tampa"></option>
+    <option id="TVC" value = "Traverse City"></option>
+    <option id="TUS" value = "Tucson, AZ"></option>
+    <option id="TUL" value = "Tulsa"></option>
+
+    <option id="Washington Baltimore" value = "BWI"></option>
+    <option id="Washington Dulles" value = "IAD"></option>
+    <option id="Washington Reagan" value = "DCA"></option>
+    <option id="West Palm Beach" value = "PBI"></option>
+    <option id="Wichita" value = "ICT"></option>
+</datalist>
+<!-- End of datalist -->
+
+
+<button type="button" id="button">Click Me!</button>
+
+</div>
+</div>
+
+<script src="js/jquery-2.2.0.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
