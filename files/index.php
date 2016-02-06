@@ -1,11 +1,5 @@
 <html>
-<<<<<<< HEAD
 
-Gonna work on this today hopefully
-
-
-</html>
-=======
 	<head>
 		<title> Far Flights </title>
 		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
@@ -37,4 +31,3 @@ Gonna work on this today hopefully
 	
 	</body>
 </html>	
->>>>>>> a10281e... Trying to make this webpage responsive
