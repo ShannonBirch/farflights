@@ -7,6 +7,7 @@
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/script.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery.leanModal.min.js"></script>
 	</head>
 	
 	<body>
@@ -28,7 +29,7 @@
 							<li><a href = "#"> Home </a></li>
 							<li><a href = "#"> About </a></li>
 							<li><a href = "#"> Contact </a><li>
-							<li><a href = "#"> Log in </a></li>
+							<li><a href = "#loginmodal" id = "modaltrigger"> Log in </a></li>
 						</ul>
 					</div>	
 			</div>
@@ -78,10 +79,43 @@
 				  <button type="button" id="button" class="bnt btn-default">Search Flight</button>
 				</div>
 			  </div>
-
 				</form>
 				<!--END OF FORM-->
 
+				<!-- LOGIN MODEL-->
+				<div id="loginmodal" style="display:none;">
+					<form id="loginform" name="loginform" method="post" action="login.php">
+						<input type="text" name="username" id="username" class="txtfield" value="Username" onclick="this.value='';">
+						<input type="password" name="password" id="password" class="txtfield" value="Password" onclick="this.value='';">
+							<div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="hidemodal" value="Log In"></div>
+					</form>
+				</div>
+				
+				<script type="text/javascript">
+					$(function(){
+					  $('#loginform').submit(function(e){
+						return false;
+					  });
+					  
+					  $('#modaltrigger').leanModal({ top: -100, overlay: 0.45, closeButton: ".hidemodal" });
+					});
+				</script>
+				
+				<!-- THIS BELOW HERE IS SUPPOSE TO HIDE THE LOGIN FORM WHENEVER YOU CLICK SOMEWHERE ON THE PAGE, BUT THERE A PROBLEMS WITH IT, TRY AND SUSS IT OUT SOURCE:http://stackoverflow.com/questions/1403615/use-jquery-to-hide-a-div-when-the-user-clicks-outside-of-it  -->
+				<!--<script type="text/javascript">
+					$(document).mouseup(function (e)
+						{
+							var container = $('#loginform');
+
+							if (!container.is(e.target) // if the target of the click isn't the container...
+								&& container.has(e.target).length === 0) // ... nor a descendant of the container
+							{
+								container.hide();
+							}
+						});
+				</script>
+				-->
+				<!-- END LOGIN MODEL-->
 
 
 	<!--Start of datalists -->

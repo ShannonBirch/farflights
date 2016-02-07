@@ -7,6 +7,7 @@
 
 .container {
 	position: relative;
+
 }
 
 .main {
@@ -19,3 +20,39 @@
 body {
 	background-color: FF6600
 }
+
+/* The Below is styling for the Model Login */
+/*#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}*/
+
+#loginmodal {
+  width: 300px;
+  padding: 15px 20px;
+  background-color: FFFFFF;
+  border-radius: 6px;
+}
+
+.txtfield { 
+  width: 100%;
+  padding: 6px 5px;
+  margin-bottom: 15px;
+  color: #7988a3;
+  border: 1px solid;
+  border-radius: 4px;
+
+}
+
+.txtfield:focus {
+  outline: none;
+  color: #525864;
+  border-color: #84c0ee;
+}
+/* END of Model Login */ 
