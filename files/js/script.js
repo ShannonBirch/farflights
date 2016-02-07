@@ -11,3 +11,15 @@
                       "&departureDate_1=2016-03-04";
             });
         });
+		
+		// THIS IS FOR THE CURRENCY CHANGE AT THE MAX AMOUNT
+		$(function(){
+			
+			$(".dropdown-menu li a").click(function(){
+				
+				$(".btn:first-child").text($(this).text());
+					$(".btn:first-child").val($(this).text());
+		});
+		});
+		// END OF CURRENCY CHANGE
+		
