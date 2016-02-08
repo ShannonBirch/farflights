@@ -102,7 +102,7 @@
 				</script>
 				
 				<!-- THIS BELOW HERE IS SUPPOSE TO HIDE THE LOGIN FORM WHENEVER YOU CLICK SOMEWHERE ON THE PAGE, BUT THERE A PROBLEMS WITH IT, TRY AND SUSS IT OUT SOURCE:http://stackoverflow.com/questions/1403615/use-jquery-to-hide-a-div-when-the-user-clicks-outside-of-it  -->
-				<!--<script type="text/javascript">
+                    <!--<script type="text/javascript">
 					$(document).mouseup(function (e)
 						{
 							var container = $('#loginform');
@@ -114,7 +114,7 @@
 							}
 						});
 				</script>
-				-->
+
 				<!-- END LOGIN MODEL-->
 
 
