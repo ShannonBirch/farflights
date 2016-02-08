@@ -76,7 +76,7 @@
 			  <!--Button -->
 			  <div class="form-group">
 				<div class="col-sm-10">
-				  <button type="button" id="button" class="bnt btn-default">Search Flight</button>
+				  <button type="button" id="button" class="btn btn-default">Search Flight</button>
 				</div>
 			  </div>
 				</form>

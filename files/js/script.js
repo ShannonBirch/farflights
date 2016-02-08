@@ -12,13 +12,13 @@
             });
         });
 		
-		// THIS IS FOR THE CURRENCY CHANGE AT THE MAX AMOUNT
+		// THIS IS FOR THE CURRENCY CHANGE
 		$(function(){
 			
 			$(".dropdown-menu li a").click(function(){
 				
-				$(".btn:first-child").text($(this).text());
-					$(".btn:first-child").val($(this).text());
+				$(".btn:first").text($(this).text());
+					$(".btn:first").val($(this).text());
 		});
 		});
 		// END OF CURRENCY CHANGE
