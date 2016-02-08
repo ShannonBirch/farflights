@@ -83,12 +83,14 @@
 				<!--END OF FORM-->
 
 				<!-- LOGIN MODEL-->
+				<div class="loginContainer">
 				<div id="loginmodal" style="display:none;">
 					<form id="loginform" name="loginform" method="post" action="login.php">
 						<input type="text" name="username" id="username" class="txtfield" value="Username" onclick="this.value='';">
 						<input type="password" name="password" id="password" class="txtfield" value="Password" onclick="this.value='';">
 							<div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="hidemodal" value="Log In"></div>
 					</form>
+				</div>
 				</div>
 				
 				<script type="text/javascript">
@@ -102,10 +104,10 @@
 				</script>
 				
 				<!-- THIS BELOW HERE IS SUPPOSE TO HIDE THE LOGIN FORM WHENEVER YOU CLICK SOMEWHERE ON THE PAGE, BUT THERE A PROBLEMS WITH IT, TRY AND SUSS IT OUT SOURCE:http://stackoverflow.com/questions/1403615/use-jquery-to-hide-a-div-when-the-user-clicks-outside-of-it  -->
-                    <!--<script type="text/javascript">
+                    <script type="text/javascript">
 					$(document).mouseup(function (e)
 						{
-							var container = $('#loginform');
+							var container = $('#loginmodal');
 
 							if (!container.is(e.target) // if the target of the click isn't the container...
 								&& container.has(e.target).length === 0) // ... nor a descendant of the container
