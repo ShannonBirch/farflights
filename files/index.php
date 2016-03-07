@@ -71,6 +71,14 @@
 					</div>
 					</div>
 					<!-- END OF CURRENCY -->
+					
+					<!-- The nav bar will dissapear whenever a choice is made in mobile/tablet view -->
+					<script>
+							$('.nav a').on('click', function(){
+							$('.btn-navbar').click();
+							$('.navbar-collapse').collapse('hide');
+							});
+					</script>
   
 			  <!--Button -->
 			  <div class="form-group">
@@ -102,7 +110,7 @@
 					});
 				</script>
 				
-				<!-- THIS BELOW HERE IS SUPPOSE TO HIDE THE LOGIN FORM WHENEVER YOU CLICK SOMEWHERE ON THE PAGE, BUT THERE A PROBLEMS WITH IT, TRY AND SUSS IT OUT SOURCE:http://stackoverflow.com/questions/1403615/use-jquery-to-hide-a-div-when-the-user-clicks-outside-of-it  -->
+				<!-- THIS BELOW HERE IS TO HIDE THE LOGIN FORM WHENEVER YOU CLICK SOMEWHERE ON THE PAGE -->
                     <script type="text/javascript">
 					$(document).mouseup(function (e)
 						{
@@ -115,8 +123,6 @@
 							}
 						});
 				</script>
-
-				<!-- END LOGIN MODEL-->
 
 
 	<!--Start of datalists -->
