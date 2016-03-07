@@ -15,8 +15,7 @@
 		<!-- START OF HEADER -->
 		<div class = "navbar navbar-inverse navbar-static-top">
 			<div class = "container">
-					
-					<div class="navbar-header"><a href="#" class="navbar-brand">Far Flights</a>
+				<div class="navbar-header"><a href="#" class="navbar-brand">Far Flights</a>
 						<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -85,7 +84,7 @@
 				<!-- LOGIN MODEL-->
 				<div class="loginContainer">
 				<div id="loginmodal" style="display:none;">
-					<form id="loginform" name="loginform" method="post" action="login.php">
+					<form id="loginform" name="loginform " method="post" action="login.php">
 						<input type="text" name="username" id="username" class="txtfield" value="Username" onclick="this.value='';">
 						<input type="password" name="password" id="password" class="txtfield" value="Password" onclick="this.value='';">
 							<div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="hidemodal" value="Log In"></div>

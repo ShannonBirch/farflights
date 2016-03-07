@@ -1,0 +1,12 @@
+c:\users\piotr_justyna\documents\visual studio 2013\Projects\SeleniumScaper\SeleniumScaper\bin\Debug\Libraries\chromedriver.exe
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\bin\Debug\SeleniumScaper.exe.config
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\bin\Debug\Libraries\chromedriver.exe
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\bin\Debug\Libraries\WebDriver.dll
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\bin\Debug\Libraries\WebDriver.Support.dll
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\bin\Debug\SeleniumScaper.exe
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\bin\Debug\SeleniumScaper.pdb
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\bin\Debug\WebDriver.dll
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\bin\Debug\WebDriver.Support.dll
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\obj\Debug\SeleniumScraper.csprojResolveAssemblyReference.cache
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\obj\Debug\SeleniumScaper.exe
+C:\Users\Shamil_Ataev\Desktop\SeleniumScaper\SeleniumScaper\obj\Debug\SeleniumScaper.pdb

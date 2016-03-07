@@ -1,0 +1,6 @@
+c:\users\piotr_justyna\documents\visual studio 2013\Projects\SeleniumScaper\SeleniumScaper\bin\Debug\SeleniumScaper.exe.config
+c:\users\piotr_justyna\documents\visual studio 2013\Projects\SeleniumScaper\SeleniumScaper\bin\Debug\SeleniumScaper.exe
+c:\users\piotr_justyna\documents\visual studio 2013\Projects\SeleniumScaper\SeleniumScaper\bin\Debug\SeleniumScaper.pdb
+c:\users\piotr_justyna\documents\visual studio 2013\Projects\SeleniumScaper\SeleniumScaper\obj\Debug\SeleniumScaper.csprojResolveAssemblyReference.cache
+c:\users\piotr_justyna\documents\visual studio 2013\Projects\SeleniumScaper\SeleniumScaper\obj\Debug\SeleniumScaper.exe
+c:\users\piotr_justyna\documents\visual studio 2013\Projects\SeleniumScaper\SeleniumScaper\obj\Debug\SeleniumScaper.pdb
