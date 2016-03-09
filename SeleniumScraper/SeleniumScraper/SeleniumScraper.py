@@ -14,7 +14,7 @@ dcap["phantomjs.page.settings.userAgent"] = (
      "(KHTML, like Gecko) Chrome/15.0.87")
 
 
-path_to_phantomjs = '/Users/Artur/Desktop/PythonApplication1/Libraries/bin/phantomjs.exe'
+path_to_phantomjs = '/Users/Artur/Desktop/Project/SeleniumScraper/Libraries/bin/phantomjs.exe'
 browser = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
 
 
