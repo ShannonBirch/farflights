@@ -297,7 +297,6 @@
 
 		<option id="CHS" value = "Charleston ">
 		<option id="CLT" value = "Charlotte">
-		<option id="ORD" value = "Chicago/OHare">
 		<option id="CVG" value = "Cincinnati">
 		<option id="CLE" value = "Cleveland">
 
@@ -581,7 +580,6 @@
 
 		<option id="CHS" value = "Charleston ">
 		<option id="CLT" value = "Charlotte">
-		<option id="ORD" value = "Chicago/OHare">
 		<option id="CVG" value = "Cincinnati">
 		<option id="CLE" value = "Cleveland">
 
