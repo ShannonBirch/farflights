@@ -2,16 +2,18 @@
 	<head>
 		<title> Far Flights </title>
 		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+		<meta name="google-signin-client_id" content="820409304754-d5rl5vn214sko9lb9l4mmac1ju708glt.apps.googleusercontent.com">
 		<link href = "css/bootstrap.min.css" rel = "stylesheet">
 		<link href = "css/styles.css" rel = "stylesheet">
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/script.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/jquery.leanModal.min.js"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
 	</head>
 	
 	<body>
-	
+
 		<!-- START OF HEADER -->
 		<div class = "navbar navbar-inverse navbar-static-top">
 			<div class = "container">
@@ -28,7 +30,9 @@
 							<li><a href = "#"> Home </a></li>
 							<li><a href = "#"> About </a></li>
 							<li><a href = "#"> Contact </a><li>
-							<li><a href = "#loginmodal" id = "modaltrigger"> Log in </a></li>
+							<li><div class="g-signin2" data-onsuccess="onSignIn"></div></li>
+							<li><a href="#" onclick="signOut();">Sign out</a></li>
+
 						</ul>
 					</div>	
 			</div>
@@ -72,13 +76,6 @@
 					</div>
 					<!-- END OF CURRENCY -->
 					
-					<!-- The nav bar will dissapear whenever a choice is made in mobile/tablet view -->
-					<script>
-							$('.nav a').on('click', function(){
-							$('.btn-navbar').click();
-							$('.navbar-collapse').collapse('hide');
-							});
-					</script>
   
 			  <!--Button -->
 			  <div class="form-group">
@@ -100,29 +97,7 @@
 				</div>
 				</div>
 				
-				<script type="text/javascript">
-					$(function(){
-					  $('#loginform').submit(function(e){
-						return false;
-					  });
-					  
-					  $('#modaltrigger').leanModal({ top: -100, overlay: 0.45, closeButton: ".hidemodal" });
-					});
-				</script>
 				
-				<!-- THIS BELOW HERE IS TO HIDE THE LOGIN FORM WHENEVER YOU CLICK SOMEWHERE ON THE PAGE -->
-                    <script type="text/javascript">
-					$(document).mouseup(function (e)
-						{
-							var container = $('#loginmodal');
-
-							if (!container.is(e.target) // if the target of the click isn't the container...
-								&& container.has(e.target).length === 0) // ... nor a descendant of the container
-							{
-								container.hide();
-							}
-						});
-				</script>
 
 
 	<!--Start of datalists -->
@@ -297,6 +272,7 @@
 
 		<option id="CHS" value = "Charleston ">
 		<option id="CLT" value = "Charlotte">
+		<option id="ORD" value = "Chicago/OHare">
 		<option id="CVG" value = "Cincinnati">
 		<option id="CLE" value = "Cleveland">
 
@@ -580,6 +556,7 @@
 
 		<option id="CHS" value = "Charleston ">
 		<option id="CLT" value = "Charlotte">
+		<option id="ORD" value = "Chicago/OHare">
 		<option id="CVG" value = "Cincinnati">
 		<option id="CLE" value = "Cleveland">
 
