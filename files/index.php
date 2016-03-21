@@ -30,9 +30,7 @@
 							<li><a href = "#"> Home </a></li>
 							<li><a href = "#"> About </a></li>
 							<li><a href = "#"> Contact </a><li>
-							<li><div class="g-signin2" data-onsuccess="onSignIn"></div></li>
-							<li><a href="#" onclick="signOut();">Sign out</a></li>
-
+							<li><a href = "#loginmodal" id = "modaltrigger"> Log in </a></li>
 						</ul>
 					</div>	
 			</div>
@@ -76,6 +74,7 @@
 					</div>
 					<!-- END OF CURRENCY -->
 					
+					<div class="g-signin2" data-onsuccess="onSignIn"></div>
   
 			  <!--Button -->
 			  <div class="form-group">

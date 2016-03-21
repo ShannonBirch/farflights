@@ -6,57 +6,56 @@ import datetime
 import string
 import sys
 
-#This code opens a new instance of Chrome.
-#path_to_chromedriver = '/Users/Artur/Desktop/PythonApplication1/Libraries/chromedriver'
-#browser = webdriver.Chrome(executable_path = path_to_chromedriver)
 
+dept = str(sys.argv[1])
+dest = str(sys.argv[2])
 
-dcap = dict(DesiredCapabilities.PHANTOMJS)
-dcap["phantomjs.page.settings.userAgent"] = (
+if(dept != dest):
+	#opens the file which will record the prices
+	text_file = open('C:/Users/Artur/Desktop/Flights/'+dept+'-'+dest+'.txt', 'wb')
+
+	dateloop = 1
+
+	dcap = dict(DesiredCapabilities.PHANTOMJS)
+	dcap["phantomjs.page.settings.userAgent"] = (
      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 "
      "(KHTML, like Gecko) Chrome/15.0.87")
 
 
-path_to_phantomjs = '/Users/Artur/Desktop/farflights/SeleniumScraper/Libraries/bin/phantomjs.exe'
-browser = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
+	path_to_phantomjs = '/Users/Artur/Desktop/farflights/SeleniumScraper/Libraries/bin/phantomjs.exe'
+	browser = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
 
 
+	while (dateloop < 3):
+		price = None
+		deptDate = datetime.date.today()
+		deptD = str(deptDate+datetime.timedelta(days=dateloop))
 
-dept = "DUB"
-dest = str(sys.argv[1])
+		#Opens the page
+		url = 'https://www.aerlingus.com/html/flightSearchResult.html#/fareType=ONEWAY&fareCategory=ECONOMY&numAdults=1&numChildren=0&numInfants=0&promoCode=&groupBooking=false&sourceAirportCode_0='+dept+'&destinationAirportCode_0='+dest+'&departureDate_0='+ deptD
 
-#opens the file which will record the prices
-text_file = open('C:/Users/Artur/Desktop/Flights/'+dest+'.txt', 'wb')
-
-
-
-dateloop = 1
-
-
-while (dateloop < 4):
-	price = None
-	deptDate = datetime.date.today()
-	deptD = str(deptDate+datetime.timedelta(days=dateloop))
-
-	#Opens the page
-	url = 'https://www.aerlingus.com/html/flightSearchResult.html#/fareType=ONEWAY&fareCategory=ECONOMY&numAdults=1&numChildren=0&numInfants=0&promoCode=&groupBooking=false&sourceAirportCode_0='+dept+'&destinationAirportCode_0='+dest+'&departureDate_0='+ deptD
-
-	browser.get(url)
-	browser.refresh()
-
-	time.sleep(5) #capture of price needs to be delayed as the webpage needs time to load
+		browser.get(url)
+		browser.refresh()
+	
+		time.sleep(5) #capture of price needs to be delayed as the webpage needs time to load
 		
-	#loads page element (in this case its the element that cotains total price for a flight, from the url above)
-	price = (browser.find_element_by_xpath('//*[@id="test_ts_purchasePrice"]/span[3]').get_attribute('innerHTML').encode("utf-8"))
+		#loads page element (in this case its the element that cotains total price for a flight, from the url above)
+		price = (browser.find_element_by_xpath('//*[@id="test_ts_purchasePrice"]/span[3]').get_attribute('innerHTML').encode("utf-8"))
+		print(price)
 
-	out = (dept+' ' + dest + ' ' + deptD + ' ').encode("utf-8")+price[3:]+('\n').encode("utf-8")
-	print(out)
+		if(price == b'' or price == b'0.00'):
+			price = "NULL"
+		else:
+			out = (dept+' ' + dest + ' ' + deptD + ' ').encode("utf-8")+price[3:]+('\n').encode("utf-8")
+			print(out)
+			text_file.write(out) #write the price to the text file
 
 
-	text_file.write(out) #write the price to the text file
-	dateloop+=1
+
+		dateloop+=1
+	text_file.close()
+	browser.close()
 	
 
-browser.close()
 
-text_file.close()
+time.sleep(30)
