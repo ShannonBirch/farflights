@@ -3,10 +3,6 @@ Flight searching system
 
 
 ToDo List
- Change it from exporting txt files to sql files from the scraper
- Make main bat file, run smaller bat files
- Make Main bat run main bat again when finished
-
   USE LESS GENERIC FILE NAMES
 
   Create website

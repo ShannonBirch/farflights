@@ -3,15 +3,19 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>71067dfc-6571-4f58-8ca6-3875664c47f4</ProjectGuid>
+    <ProjectGuid>5f7a6c33-5cd5-40ea-b202-ac6df39fd173</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SeleniumScraper.py</StartupFile>
+    <StartupFile>FileReader.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>SeleniumScraper</Name>
-    <RootNamespace>SeleniumScraper</RootNamespace>
+    <Name>FileReader</Name>
+    <RootNamespace>FileReader</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +26,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="createBatchFiles.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="SeleniumScraper.py" />
+    <Compile Include="FileReader.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
