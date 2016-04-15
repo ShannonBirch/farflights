@@ -3,16 +3,16 @@ $(document).ready(function(){
     $('#searchButton').click(function(e) {
         var inputDeparture = $('option[value="'+$(departure).val()+'"]').attr('id');
         var inputDestination = $('option[value="'+$(destination).val()+'"]').attr('id');
+        var inputPrice = $('option[value="'+$(price).val()+'"]').attr('id');
+
 
         //var url = "/Users/Artur/Desktop/Test/SeleniumScraper/SeleniumScraper.py";
         //var params = "dest=" + inputDestination + "&dept" + inputDeparture;
-        var priceVar = 35.00
         var searchPHP = '/scripts/search.php';
-        $.post(searchPHP, {dept:inputDeparture, dest: inputDestination})
+        $.post(searchPHP, {dept:inputDeparture, dest: inputDestination, price:inputPrice})
           .done(function(data){
           	document.getElementById("Results").innerHTML = data;
           });
-        window.alert("Artur's idea");
 
         /*
          window.location = "https://www.aerlingus.com/html/flightSearchResult.html#/fareType=RETURN" +

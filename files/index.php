@@ -57,6 +57,15 @@
 						</div>
 				  </div>
 				  
+
+				  <!--Price text box input -->
+				<form id="flightSpecifications" class="span8 form-inline">
+				  <div class="form-group">
+						<div class="col-sm-10">
+						  <input type="text" class="form-control" id="price" placeholder="Maximum Price">
+						</div>
+				  </div>
+  
   
 			  <!--Button -->
 				  <div class="form-group">
