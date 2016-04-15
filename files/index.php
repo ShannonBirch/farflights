@@ -57,24 +57,6 @@
 						</div>
 				  </div>
 				  
-					<!-- CURRENCY SELECT -->
-					<div class ="form-group">
-					<div class="col-sm-10">
-						<div class="input-group">
-						  <input type="text" class="form-control" placeholder = "Max">
-						  <div class="input-group-btn">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EUR<span class="caret"></span></button>
-							<ul class="dropdown-menu">
-							  <li><a href="#">USD</a></li>
-							  <li><a href="#">EUR</a></li>
-							  <li><a href="#">GBP</a></li>
-							</ul>
-						  </div>
-						</div>
-					</div>
-					</div>
-					<!-- END OF CURRENCY -->
-					
   
 			  <!--Button -->
 			  <div class="form-group">
