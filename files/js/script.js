@@ -7,8 +7,11 @@ $(document).ready(function(){
         //var url = "/Users/Artur/Desktop/Test/SeleniumScraper/SeleniumScraper.py";
         //var params = "dest=" + inputDestination + "&dept" + inputDeparture;
         var priceVar = 35.00
-        var searchPHP = 'scripts/search.php';
-        $.post(searchPHP, {dept:inputDeparture, dest: inputDestination, price: priceVar});
+        var searchPHP = '/scripts/search.php';
+        $.post(searchPHP, {dept:inputDeparture, dest: inputDestination})
+          .done(function(data){
+          	document.getElementById("Results").innerHTML = data;
+          });
         window.alert("Artur's idea");
 
         /*
@@ -78,7 +81,6 @@ function signOut() {
     console.log('User signed out.');
   });
 }
-
 
 
 

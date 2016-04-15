@@ -71,15 +71,18 @@
 
 				<!-- LOGIN MODEL-->
 				<div class="loginContainer">
-				<div id="loginmodal" style="display:none;">
-					<form id="loginform" name="loginform " method="post" action="login.php">
-						<input type="text" name="username" id="username" class="txtfield" value="Username" onclick="this.value='';">
-						<input type="password" name="password" id="password" class="txtfield" value="Password" onclick="this.value='';">
-							<div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="hidemodal" value="Log In"></div>
-					</form>
-				</div>
+					<div id="loginmodal" style="display:none;">
+						<form id="loginform" name="loginform " method="post" action="login.php">
+							<input type="text" name="username" id="username" class="txtfield" value="Username" onclick="this.value='';">
+							<input type="password" name="password" id="password" class="txtfield" value="Password" onclick="this.value='';">
+								<div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="hidemodal" value="Log In"></div>
+						</form>
+					</div>
 				</div>
 				
+				<div id="Results">
+					Results are here later!
+				</Div>
 				
 
 
