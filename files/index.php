@@ -59,12 +59,14 @@
 				  
   
 			  <!--Button -->
-			  <div class="form-group">
-				<div class="col-sm-10">
-				  <button type="button" id="button" class="btn btn-default">Search Flight</button>
-				</div>
-			  </div>
+				  <div class="form-group">
+					<div class="col-sm-10">
+					  <button type="button" id="searchButton" class="btn btn-default">Search Flight</button>
+					</div>
+				  </div>
 				</form>
+
+
 				<!--END OF FORM-->
 
 				<!-- LOGIN MODEL-->
