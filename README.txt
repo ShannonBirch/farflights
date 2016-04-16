@@ -5,7 +5,7 @@ Flight searching system
 ToDo List
   USE LESS GENERIC FILE NAMES
 
-  Create website
+  Location based currency conversion.
    
  -Create Database
        
