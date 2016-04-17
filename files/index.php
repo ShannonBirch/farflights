@@ -61,6 +61,11 @@
 						  <input type="text" class="form-control margin-bottom" id="price" placeholder="Maximum Price">
 				  </div>
 
+				    <div class="form-group">
+				    	<label for="returnBox">Return Flights</label>
+						<input type="checkbox" id="returnCheckBox">
+				    </div>
+
 			 	 <!--Search Button -->
 				  <div class="form-group">
 					  <button type="button" class="form-control margin-bottom" id="searchButton" class="btn btn-default">FarFlights Search</button>
@@ -70,7 +75,7 @@
 				</div>
 				
 
-				<button class="form-control margin-bottom" id="returnOptions" class="btn btn-default"href="#" onclick="toggler('returns');">Return Options</button> 
+				<button class="form-control margin-bottom" id="returnOptions" class="btn btn-default"href="#" onclick="toggler('returns');">More Options</button> 
 				<div id="returns" style="display:none">
 
 					<div class="form-group">
