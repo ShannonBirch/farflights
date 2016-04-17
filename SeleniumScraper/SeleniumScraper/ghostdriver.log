@@ -1,5 +1,31 @@
-[INFO  - 2016-03-20T16:15:03.402Z] GhostDriver - Main - running on port 51903
-[INFO  - 2016-03-20T16:15:03.613Z] Session [e742a030-eeb6-11e5-bca8-97b17d05806d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 (KHTML, like Gecko) Chrome/15.0.87","webSecurityEnabled":true}
-[INFO  - 2016-03-20T16:15:03.613Z] Session [e742a030-eeb6-11e5-bca8-97b17d05806d] - page.customHeaders:  - {}
-[INFO  - 2016-03-20T16:15:03.613Z] Session [e742a030-eeb6-11e5-bca8-97b17d05806d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 (KHTML, like Gecko) Chrome/15.0.87"}
-[INFO  - 2016-03-20T16:15:03.613Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e742a030-eeb6-11e5-bca8-97b17d05806d
+[INFO  - 2016-04-16T22:30:50.918Z] GhostDriver - Main - running on port 50565
+[INFO  - 2016-04-16T22:30:51.434Z] Session [dff6a020-0422-11e6-9bac-59e57650bfbc] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 (KHTML, like Gecko) Chrome/15.0.87","webSecurityEnabled":true}
+[INFO  - 2016-04-16T22:30:51.434Z] Session [dff6a020-0422-11e6-9bac-59e57650bfbc] - page.customHeaders:  - {}
+[INFO  - 2016-04-16T22:30:51.434Z] Session [dff6a020-0422-11e6-9bac-59e57650bfbc] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 (KHTML, like Gecko) Chrome/15.0.87"}
+[INFO  - 2016-04-16T22:30:51.434Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: dff6a020-0422-11e6-9bac-59e57650bfbc
+[ERROR - 2016-04-16T22:30:56.170Z] Session [dff6a020-0422-11e6-9bac-59e57650bfbc] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-16T22:30:56.171Z] Session [dff6a020-0422-11e6-9bac-59e57650bfbc] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-16T22:31:00.443Z] Session [dff6a020-0422-11e6-9bac-59e57650bfbc] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-16T22:31:00.443Z] Session [dff6a020-0422-11e6-9bac-59e57650bfbc] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error

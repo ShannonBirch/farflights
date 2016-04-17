@@ -1,9 +1,4 @@
-.bgimage{
-	background-image: url(../zohan.jpg);
-	background-position:  center;
-	background-size: cover;
-	height: 400px;
-}
+
 
 .container {
 	position: relative;
@@ -11,48 +6,40 @@
 }
 
 .main {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+margin: 0 auto;
 }
 
 body {
-	background-color: FF6600
+	background-color: FFFFFF
 }
 
-/* The Below is styling for the Model Login */
-/*#lean_overlay {
-    position: fixed;
-    z-index:100;
-    top: 0px;
-    left: 0px;
-    height:100%;
-    width:100%;
-    background: #000;
-    display: none;
-}*/
-
-#loginmodal {
-  width: 300px;
-  padding: 15px 20px;
-  background-color: FFFFFF;
-  border-radius: 6px;
+.margin-bottom {
+margin-bottom:15px;
+margin-right:15px;
 }
 
-.txtfield { 
-  width: 100%;
-  padding: 6px 5px;
-  margin-bottom: 15px;
-  color: #7988a3;
-  border: 1px solid;
-  border-radius: 4px;
-
+.hidden {
+     display:none;
+     position: absolute;
 }
 
-.txtfield:focus {
-  outline: none;
-  color: #525864;
-  border-color: #84c0ee;
+#returns{
+  position: relative;
 }
-/* END of Model Login */ 
+
+#results{
+  position: absolute;
+}
+
+#searchButton {
+background: #006699;
+border-radius:0;
+color: white;
+}
+
+#returnOptions {
+background: #006699;
+border-radius:0;
+color: white;
+}
+

@@ -1,0 +1,1217 @@
+[INFO  - 2016-04-17T13:21:07.828Z] GhostDriver - Main - running on port 52667
+[INFO  - 2016-04-17T13:21:08.058Z] Session [3ec09b20-049f-11e6-9d50-69b92e65f22b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 (KHTML, like Gecko) Chrome/15.0.87","webSecurityEnabled":true}
+[INFO  - 2016-04-17T13:21:08.058Z] Session [3ec09b20-049f-11e6-9d50-69b92e65f22b] - page.customHeaders:  - {}
+[INFO  - 2016-04-17T13:21:08.058Z] Session [3ec09b20-049f-11e6-9d50-69b92e65f22b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 (KHTML, like Gecko) Chrome/15.0.87"}
+[INFO  - 2016-04-17T13:21:08.058Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3ec09b20-049f-11e6-9d50-69b92e65f22b
+[ERROR - 2016-04-17T13:21:16.969Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:21:16.970Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:21:35.588Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:21:35.588Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:21:46.910Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:21:46.910Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:21:58.681Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:21:58.681Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:11.654Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:11.655Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:24.525Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:24.525Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:35.523Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:35.523Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:48.194Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:48.194Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:59.819Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:22:59.820Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:23:12.761Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:23:12.761Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:23:27.982Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:23:27.983Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:23:40.880Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:23:40.880Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:23:52.347Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:23:52.347Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:02.327Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:02.327Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:13.171Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'a.cityPairs')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:684:427
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10238
+k@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:58886
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:39967
+$eval@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69479
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68009
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+openUrl@[native code]
+open@phantomjs://platform/webpage.js:281:25
+phantomjs://code/session_request_handler.js:495:36
+_execFuncAndWaitForLoadDecorator@phantomjs://code/session.js:212:23
+_postUrlCommand@phantomjs://code/session_request_handler.js:494:46
+_handle@phantomjs://code/session_request_handler.js:91:32
+_reroute@phantomjs://code/request_handler.js:61:20
+_handle@phantomjs://code/router_request_handler.js:78:46
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:13.171Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:19.608Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:19.609Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:33.923Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:33.923Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:46.153Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6475
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:46.153Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:58.575Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6475
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:24:58.575Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:25:30.188Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:25:30.189Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:25:43.273Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:25:43.273Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:25:55.945Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:25:55.946Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2016-04-17T13:26:08.601Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-04-17T13:26:09.454Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:26:09.455Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:26:21.498Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:26:21.498Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:26:36.830Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:26:36.830Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:26:52.816Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:26:52.816Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:06.352Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:06.352Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:20.635Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:20.635Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:32.167Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:32.167Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:42.801Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:42.801Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:59.693Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:59.693Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:11.336Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:11.336Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:24.995Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:24.995Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:39.889Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:39.889Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:52.151Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:52.151Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:05.682Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:05.682Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:17.027Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:17.028Z] Session [3ead8850-049f-11e6-8c21-6b5a60c4d1d4] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+Fatal Windows exception, code 0xc0000005.
+PhantomJS has crashed. Please read the bug reporting guide at
+<http://phantomjs.org/bug-reporting.html> and file a bug report.
+ipts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:06.177Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:14.916Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:14.918Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:23.495Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:23.495Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:31.777Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:31.777Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:40.163Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:40.163Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:52.055Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:52.055Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:59.905Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:27:59.905Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:08.563Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:08.563Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:16.774Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:16.775Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:24.924Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:24.924Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:33.635Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:33.635Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:42.275Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:42.275Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:51.194Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:51.194Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:59.357Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:28:59.358Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:08.026Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:08.027Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:16.011Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:16.011Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:25.012Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:25.013Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:33.446Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:33.446Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:41.701Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:41.701Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:49.723Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:49.723Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:58.470Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:29:58.471Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:06.500Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:06.500Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:14.887Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:14.888Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:23.179Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:23.180Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:32.051Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:32.051Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:40.085Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:40.085Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:48.671Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:48.671Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:56.705Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:30:56.705Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:05.546Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:05.546Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2016-04-17T13:31:07.502Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-04-17T13:31:14.458Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:14.458Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:23.664Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:23.664Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:31.752Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:31.752Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:39.707Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:39.707Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:48.430Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:48.430Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:57.639Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:31:57.639Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:08.188Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:08.189Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:16.778Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:16.778Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:27.032Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:27.035Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:40.736Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:40.737Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:49.635Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:32:49.635Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:01.165Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:01.165Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:06.168Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:06.168Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:13.102Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:13.102Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:22.109Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:22.109Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:30.432Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:30.433Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:38.460Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:38.460Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:47.414Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:47.414Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:56.010Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:33:56.011Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:10.190Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:10.190Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:19.753Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:19.753Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:29.762Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:29.762Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:37.349Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:37.349Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:46.496Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:46.496Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:54.203Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6631
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:24836
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:26365
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:5347
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:7655
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:8231
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:34:54.203Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:35:02.720Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - msg: Error: undefined is not an object (evaluating 'b.flightOption.errorReferrenceNumber')
+https://www.aerlingus.com/scripts/concat/flightsearchresult.js:717:6864
+$digest@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:68276
+$apply@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:69805
+i@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:10663
+r@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:20479
+onreadystatechange@https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2:21055
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2016-04-17T13:35:02.720Z] Session [3e9a4e70-049f-11e6-9c15-83b13069425c] - page.onError - stack:
+  (anonymous function) (https://www.aerlingus.com/scripts/concat/flightsearchresult.js:2)
+
+  phantomjs://platform/console++.js:263 in error

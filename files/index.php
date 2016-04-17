@@ -30,7 +30,8 @@
 							<li><a href = "#"> Home </a></li>
 							<li><a href = "#"> About </a></li>
 							<li><a href = "#"> Contact </a><li>
-							<div class="g-signin2" data-onsuccess="onSignIn"></div>
+							<li><a href="#" class="g-signin2" data-onsuccess="onSignIn"></a></li>
+							<li><a href="#" onclick="signOut();">Sign out</a></li>
 
 						</ul>
 					</div>	
@@ -41,57 +42,69 @@
 		<div class="main">
 			<div class="container">
 
+			<div id="oneWay">
 				<!--START OF FORM -->
 				<!--Departure text box input -->
 				<form id="flightSpecifications" class="span8 form-inline">
 				  <div class="form-group">
-						<div class="col-sm-10">
-						  <input type="text" class="form-control" list="citynameFrom" id="departure" placeholder="Departure">
-						</div>
+						  <input type="text" class="form-control margin-bottom" list="citynameFrom" id="departure" placeholder="Departure">
 				  </div>
   
 				<!--Destination text box input -->
 				  <div class="form-group">
-						<div class="col-sm-10">
-						  <input type="text" list="citynameTo" class="form-control" id="destination" placeholder="Destination">
-						</div>
+						  <input type="text" list="citynameTo" class="form-control margin-bottom" id="destination" placeholder="Destination">
 				  </div>
-				  
 
 				  <!--Price text box input -->
 				<form id="flightSpecifications" class="span8 form-inline">
 				  <div class="form-group">
-						<div class="col-sm-10">
-						  <input type="text" class="form-control" id="price" placeholder="Maximum Price">
-						</div>
+						  <input type="text" class="form-control margin-bottom" id="price" placeholder="Maximum Price">
 				  </div>
-  
-  
-			  <!--Button -->
+
+			 	 <!--Search Button -->
 				  <div class="form-group">
-					<div class="col-sm-10">
-					  <button type="button" id="searchButton" class="btn btn-default">Search Flight</button>
-					</div>
+					  <button type="button" class="form-control margin-bottom" id="searchButton" class="btn btn-default">FarFlights Search</button>
 				  </div>
 				</form>
 
-
-				<!--END OF FORM-->
-
-				<!-- LOGIN MODEL-->
-				<div class="loginContainer">
-					<div id="loginmodal" style="display:none;">
-						<form id="loginform" name="loginform " method="post" action="login.php">
-							<input type="text" name="username" id="username" class="txtfield" value="Username" onclick="this.value='';">
-							<input type="password" name="password" id="password" class="txtfield" value="Password" onclick="this.value='';">
-								<div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="hidemodal" value="Log In"></div>
-						</form>
-					</div>
 				</div>
 				
+
+				<button class="form-control margin-bottom" id="returnOptions" class="btn btn-default"href="#" onclick="toggler('returns');">Return Options</button> 
+				<div id="returns" style="display:none">
+
+					<div class="form-group">
+						  <input type="text"  class="form-control margin-bottom" id="minDays" placeholder="Min Days of Stay">
+				    </div>
+
+					<div class="form-group">
+						  <input type="text" class="form-control margin-bottom" id="maxDays" placeholder="Max Days of Stay">
+				    </div>	
+
+				    <label for="startDate">Select the earliest day you are available</label>
+				    <div class="form-group">
+						  <input type="date" class="form-control margin-bottom" id="dateAvailabe">
+				    </div>
+
+				    <label for="endDate">Select the latest day you are available</label>
+				    <div class="form-group">
+						  <input type="date" class="form-control margin-bottom" id="dateAvailabe">
+				    </div>
+
+				</div>
+
+
+
+
+
+
+
+
+
+
 				<div id="Results">
 					Results are here later!
-				</Div>
+				</div>
 				
 
 

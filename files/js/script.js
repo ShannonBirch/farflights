@@ -3,7 +3,8 @@ $(document).ready(function(){
     $('#searchButton').click(function(e) {
         var inputDeparture = $('option[value="'+$(departure).val()+'"]').attr('id');
         var inputDestination = $('option[value="'+$(destination).val()+'"]').attr('id');
-        var inputPrice = $('option[value="'+$(price).val()+'"]').attr('id');
+        var inputPrice = document.getElementById("price").value;
+
 
 
         //var url = "/Users/Artur/Desktop/Test/SeleniumScraper/SeleniumScraper.py";
@@ -11,7 +12,7 @@ $(document).ready(function(){
         var searchPHP = '/scripts/search.php';
         $.post(searchPHP, {dept:inputDeparture, dest: inputDestination, price:inputPrice})
           .done(function(data){
-          	document.getElementById("Results").innerHTML = data;
+            document.getElementById("Results").innerHTML = data;
           });
 
         /*
@@ -26,11 +27,11 @@ $(document).ready(function(){
 
 // THIS IS FOR THE CURRENCY CHANGE
 $(function(){
-	
-	$(".dropdown-menu li a").click(function(){
-		
-		$(".btn:first").text($(this).text());
-			$(".btn:first").val($(this).text());
+  
+  $(".dropdown-menu li a").click(function(){
+    
+    $(".btn:first").text($(this).text());
+      $(".btn:first").val($(this).text());
 });
 });
 // END OF CURRENCY CHANGE
@@ -84,7 +85,9 @@ function signOut() {
 
 
 
-
+function toggler(divId) {
+    $("#" + divId).toggle();
+}
 
 
 
