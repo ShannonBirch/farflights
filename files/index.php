@@ -1,48 +1,71 @@
-<html>
-	<head>
-		<title> Far Flights </title>
-		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
-		<meta name="google-signin-client_id" content="820409304754-d5rl5vn214sko9lb9l4mmac1ju708glt.apps.googleusercontent.com">
-		<link href = "css/bootstrap.min.css" rel = "stylesheet">
-		<link href = "css/styles.css" rel = "stylesheet">
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/script.js"></script>
-		<script type="text/javascript" charset="utf-8" src="js/jquery.leanModal.min.js"></script>
-		<script src="https://apis.google.com/js/platform.js" async defer></script>
-	</head>
-	
-	<body>
+<html lang="en">
 
-		<!-- START OF HEADER -->
-		<div class = "navbar navbar-inverse navbar-static-top">
-			<div class = "container">
-				<div class="navbar-header"><a href="#" class="navbar-brand">Far Flights</a>
-						<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					
-					<div class = "collapse navbar-collapse navHeaderCollapse">
-						<ul class = "nav navbar-nav navbar-right">
-							<li><a href = "#"> Home </a></li>
-							<li><a href = "#"> About </a></li>
-							<li><a href = "#"> Contact </a><li>
-							<li><a href="#" class="g-signin2" data-onsuccess="onSignIn"></a></li>
-							<li><a href="#" onclick="signOut();">Sign out</a></li>
+    <head>
 
-						</ul>
-					</div>	
-			</div>
-		</div>	
-			<!-- END OF HEADER -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Far Flights</title>
+        
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="shortcut icon" href="assets/ico/icon.ico">
 		
-		<div class="main">
-			<div class="container">
+		<!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+		
+		<script src="js/script.js"></script>
+    </head>
 
-			<div id="oneWay">
+    <body>
+
+		<!-- Top menu -->
+		<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"></a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="scroll-link" href="#top-content">Top</a></li>
+						<li><a class="scroll-link" href="#features">Features</a></li>
+						<li><a class="scroll-link" href="#how-it-works">How it works</a></li>
+						<li><a class="scroll-link" href="#about-us">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+        <!-- Top content -->
+        <div class="top-content">
+        	
+            <div class="inner-bg">
+                <div class="container">
+                	
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            			
+                            <div class="description wow fadeInLeftBig">
+                     
+                            </div>
+                        </div>
+                    </div>
+                    
+					<div id="oneWay">
 				<!--START OF FORM -->
 				<!--Departure text box input -->
 				<form id="flightSpecifications" class="span8 form-inline">
@@ -62,7 +85,7 @@
 				  </div>
 
 				    <div class="form-group">
-				    	<label for="returnBox">Return Flights</label>
+				    	<label for="returnBox"><font color="white">Return Flights</font></label>
 						<input type="checkbox" id="returnCheckBox">
 				    </div>
 
@@ -74,8 +97,7 @@
 
 				</div>
 				
-
-				<button class="form-control margin-bottom" id="returnOptions" class="btn btn-default"href="#" onclick="toggler('returns');">More Options</button> 
+				<button class="form-control margin-bottom" id="returnOptions" class="btn btn-default"href="#" onclick="toggler('returns');">More Options</button>  
 				<div id="returns" style="display:none">
 
 					<div class="form-group">
@@ -96,24 +118,160 @@
 						  <input type="date" class="form-control margin-bottom" id="dateAvailabe">
 				    </div>
 
-				</div>
-
-
-
-
-
-
-
-
-
-
+				</div>			
 				<div id="Results">
 					Results are here later!
 				</div>
-				
+					
+                </div>
+            </div>
+            
+        </div>
+		   
+        <!-- Features -->
+        <div class="features-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 features section-description wow fadeIn">
+	                    <h2>features</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 features-box wow fadeInUp">
+	                	<div class="features-box-icon">
+	                		<i class="fa fa-magic"></i>
+	                	</div>
+	                    <h3>Flight Search</h3>
+	                    <p>The ability to search for cheap flights from an array of different locations and destinations</p>
+                    </div>
+                    <div class="col-sm-4 features-box wow fadeInDown">
+	                	<div class="features-box-icon">
+	                		<i class="fa fa-thumbs-o-up"></i>
+	                	</div>
+	                    <h3>Book Flights</h3>
+	                    <p>Book your flights with clearly defined and simple steps and receive confirmation</p>
+                    </div>
+                    <div class="col-sm-4 features-box wow fadeInUp">
+	                	<div class="features-box-icon">
+	                		<i class="fa fa-cog"></i>
+	                	</div>
+	                    <h3>Notifications</h3>
+	                    <p>Set a trigger for a specific location you wish to visit for a specific amount and receive a notification when a flight with such criteria become available</p>
+                    </div>
+	            </div>
+	            <div class="row">
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- How it works -->
+        <div class="how-it-works-container section-container section-container-image-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 how-it-works section-description wow fadeIn">
+	                    <h2>How it works</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp">
+	                	<div class="how-it-works-box-icon">1</div>
+	                    <h3>Sign in</h3>
+	                    <p>Create an account and sign in to your profile</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown">
+	                	<div class="how-it-works-box-icon">2</div>
+	                    <h3>Set Trigger</h3>
+	                    <p>Set a trigger for whatever destination you wish to visit</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp">
+	                	<div class="how-it-works-box-icon">3</div>
+	                    <h3>Wait</h3>
+	                    <p>If the the flight with your criteria is available you will have an opportunity to book it. If not, we will notify you if such flight becomes available in the future</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown">
+	                	<div class="how-it-works-box-icon">4</div>
+	                    <h3>Book</h3>
+	                    <p>Book your flight and secure your position and get ready to go on a holiday</p>
+                    </div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- About us -->
+        <div class="about-us-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 about-us section-description wow fadeIn">
+	                    <h2><strong>About</strong> us</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-4 about-us-box wow fadeInUp">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/about/1.jpg" alt="" data-at2x="assets/img/about/1.jpg">
+		                </div>
+	                    <h3>Shamil Ataev</h3>
+	                    <p>An amazing Software Engineer with YEARS !! of experience in all the Googles, Microsofts and Oracles</p>
+	                    <div class="about-us-social">
+		                	<a href="#"><i class="fa fa-facebook"></i></a>
+		                	<a href="#"><i class="fa fa-dribbble"></i></a>
+		                    <a href="#"><i class="fa fa-twitter"></i></a>
+		                </div>
+	                </div>
+	                <div class="col-sm-4 about-us-box wow fadeInDown">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/about/2.jpg" alt="" data-at2x="assets/img/about/2.jpg">
+		                </div>
+	                    <h3>Artur Dermenji</h3>
+	                    <p>Army guy with long hair</p>
+	                    <div class="about-us-social">
+		                	<a href="#"><i class="fa fa-facebook"></i></a>
+		                	<a href="#"><i class="fa fa-dribbble"></i></a>
+		                    <a href="#"><i class="fa fa-twitter"></i></a>
+		                </div>
+	                </div>
+	                <div class="col-sm-4 about-us-box wow fadeInUp">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/about/3.jpg" alt="" data-at2x="assets/img/about/3.jpg">
+		                </div>
+	                    <h3>Shannon Birch</h3>
+	                    <p>Opsessed with helicopters</p>
+	                    <div class="about-us-social">
+		                	<a href="#"><i class="fa fa-facebook"></i></a>
+		                	<a href="#"><i class="fa fa-dribbble"></i></a>
+		                    <a href="#"><i class="fa fa-twitter"></i></a>
+		                </div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
 
-
-	<!--Start of datalists -->
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	        	<div class="row">
+                    <div class="col-sm-12 footer-social">
+                    	<a href="#"><i class="fa fa-facebook"></i></a>
+                    	<a href="#"><i class="fa fa-dribbble"></i></a>
+                    	<a href="#"><i class="fa fa-twitter"></i></a>
+                    	<a href="#"><i class="fa fa-instagram"></i></a>
+                    	<a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+	            </div>
+	            <div class="row">
+                    <div class="col-sm-12 footer-copyright">
+                    	&copy; Far Flights By <a href="https://github.com/ShannonBirch/farflights">The Thirsty Three</a>.
+                    </div>
+                </div>
+	        </div>
+        </footer>
+		
+		<!--Start of datalists -->
 	<datalist id="citynameFrom">
 
 		<!--IRELAND-->
@@ -682,8 +840,7 @@
 		<option id="Wichita" value = "ICT">
 	</datalist>
 	<!-- End of datalist -->
-		</div>
-	</div>
-		
-	</body>
-</html>	
+        
+    </body>
+
+</html>
